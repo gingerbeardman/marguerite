@@ -1,4 +1,4 @@
-# marguerite archive
+# marguerite.jp archive
 Files from wayback machine archive of http://www.marguerite.jp
 
 ## How to get Marguerite Hanafuda running
