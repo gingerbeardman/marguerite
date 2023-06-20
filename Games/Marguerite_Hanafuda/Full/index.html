@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- noembedscripet -->
+
+
+<html jang="ja" manifest="/Games/Marguerite_Hanafuda/Manifest.manifest">
+
+<head>
+<meta charset="utf-8" />
+<title>しらぎく花札(HTML5 版)</title>
+<base href="/Games/Marguerite_Hanafuda/" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<link rel="canonical" href="https://www.marguerite.jp/Nihongo/Games/%E3%81%97%E3%82%89%E3%81%8E%E3%81%8F%E8%8A%B1%E6%9C%AD/index.html" />
+<link rel="alternate" media="handheld" href="http://www.marguerite.jp/k/Games/Hanafuda/index.html" />
+
+<meta name="description" content="HTML5 で実現した花札アプリケーションです。こいこいに加え、むし, 花合わせ, はちはち, 二人はちはち, はち, 六百間(三人打ち・二人打ち), すだおし, おいちょかぶ, 京かぶがプレイ出来ます。デスクトップ向けですので、スマートフォンの方は簡略版『しらぎくモバイル花札』をお勧めします。" />
+
+
+
+<script>
+if (navigator.serviceWorker && location.protocol.toLowerCase()=='https:') {
+	navigator.serviceWorker.register('/Games/Marguerite_Hanafuda/worker.js').then(
+		function(r) {
+			r.update();
+			}
+		).catch(
+			function(err) {}
+		);
+	}
+</script>
+
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/audio1.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/audio2.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/audio3.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/audio4.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/audio5.js"></script>
+
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/audioLib.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/graphcLib.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/graphc1.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/graphc2.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/graphc3.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/graphc4.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/graphc5.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/vals.js"></script>
+
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/judge01.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/judge02.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/judge03.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/judge04.js"></script>
+
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/routines01.js"></script>
+<script src="/Games/Marguerite_Hanafuda/HTML5_Resouces/routines02.js"></script>
+<script type="text/javascript">
+	document.createElement('figure');
+	</script>
+<style type="text/css" media="all">
+	<!--
+	html, body, figure, canvas {
+		margin: 0;
+		padding: 0;
+		}
+
+	html, body {
+		height: 100%;
+		}
+
+	body {
+		overflow: hidden;
+		}
+	-->
+	</style>
+
+<style type="text/css">
+	<!--
+	#FOR_FEATURE_PHONES, hr {
+		display: none;
+		}
+	-->
+	</style>
+</head>
+
+
+<body>
+	<figure id="GAME_CONTAINER">
+		<canvas id="GAME_CANVAS" width="480" height="640">
+			<h1><a href="/Nihongo/Games/%E3%81%97%E3%82%89%E3%81%8E%E3%81%8F%E8%8A%B1%E6%9C%AD/index.html">しらぎく花札</a></h1>
+			<p>JavaScript を有効にしてから再読込してください。</p><p></p>
+			<section>
+				<h2 id="ABOUT">『しらぎく花札』について。</h2>
+				<p>本アプリケーションは、HTML5 で実現した花札アプリケーションです。</p>
+				<p>こいこいに加え、むし, 花合わせ, はちはち, 二人はちはち, はち, 六百間(三人打ち・二人打ち), すだおし, おいちょかぶ, 京かぶがプレイ出来ます。</p>
+				<p>『しらぎく花札』はデスクトップ向けです。</p>
+				<p>スマートフォンの方には簡略版『<a href="/k/Games/Hanafuda/index.html">しらぎくモバイル花札</a>』をお勧めしております。</p>
+				</section>
+
+			<section>
+				<h2 id="SYSTEM_REQUIREMENT">『しらぎく花札』の動作環境。</h2>
+				<p>HTML5 に対応しているウェブブラウザであれば、どの環境でもプレイ出来ます。</p>
+				<p>ただ、デスクトップの横方向公開像画面を想定しているため、スマートフォンでのプレイはお勧め出来ません。</p>
+				<ul class="notes">
+					<li>フラッシュ版については、令和元年12月31日限りで公開を終了しました。</li>
+					</ul>
+				</section>
+			<hr class="separator" />
+			<address>Copyright &#169;平成29年-令和 2年 さいたま・<a href="/Nihongo/">しらぎくさいと</a></address>
+			</canvas>
+		</figure>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html jang="en" manifest="/Games/Mobile_Mahjong/Manifest.manifest">
+<head>
+<meta charset="utf-8" />
+<title>Marguerite Mobile Mahjong, a Web Application of Mahjong in HTML5.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link rel="canonical" href="https://www.marguerite.jp/Games/Mobile_Mahjong/English" />
+<link rel="alternate" media="handheld" href="http://www.marguerite.jp/Games/Mobile_Mahjong/English" />
+<link rel="alternate" hreflang="ja" href="/Games/Mobile_Mahjong/" />
+
+<meta name="description" content="A web application of mahjong in HTML5 for smartphones or tables. It is originally described in Japanese, but it has English mode where Japanese RIICHI Mahjong and Mahjong Competition Rules are available." />
+
+<script>
+syslang='en';
+lang='en';
+
+if (navigator.serviceWorker && location.protocol.toLowerCase()=='https:') {
+	navigator.serviceWorker.register('/Games/Mobile_Mahjong/worker.js').then(
+		function(r) {
+			r.update();
+			}
+		).catch(
+			function(err) {}
+		);
+	}
+</script>
+
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/audio_data.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/audioLib.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/val.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/graphcLib.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/graphics.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/graphics1.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/graphics2.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/judge0.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/judge1.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/judge2.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/judge3.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/judge4.js"></script>
+<script src="/Games/Mobile_Mahjong/HTML5_Resouces/proc.js"></script>
+
+<script type="text/javascript">
+	document.createElement('figure');
+	</script>
+<style type="text/css" media="all">
+	<!--
+	html, body, figure, canvas {
+		margin: 0;
+		padding: 0;
+		}
+
+	html, body {
+		height: 100%;
+		}
+
+	body {
+		overflow: hidden;
+		}
+	-->
+	</style>
+
+<style type="text/css">
+	<!--
+	#FOR_FEATURE_PHONES, hr {
+		display: none;
+		}
+	-->
+	</style>
+</head>
+<body id="GAME_CONTAINER">
+	<figure>
+		<canvas id="GAME_CANVAS" width="480" height="640">
+			<p>To play <cite>Marguerite Mobile Mahjong</cite>, Please enable JavaScript on your device.</p>
+
+			<section>
+				<h1>About this Page.</h1>
+				<p>This is a page of <cite>Marguerite Mobile Mahjong</cite>, a web application of mahjong in HTML5, for mainly smartphone and tablets.</p>
+				<p>It is originally described in Japanese, but it has English mode where Japanese <i xml:lang="ja-latn" lang="ja-latn">Riichi</i> Mahjong and Mahjong Competition Rules are available.</p>
+				<p>For more details, please visit <a href="/English/Games/Marguerite_Mahjong/index.html">the website of <cite>Marguerite Mobile Mahjong</cite></a>.</p>
+				<ul class="notes">
+					<li>The website consists information of <cite>Marguerite Fla-Jong</cite>, a Flash application of mahjong for desktop computers as well as information of <cite>Marguerite Mobile Mahjong</cite>.</li>
+					</ul>
+				</section>
+			</canvas>
+		</figure>
+</body>
+</html>
+

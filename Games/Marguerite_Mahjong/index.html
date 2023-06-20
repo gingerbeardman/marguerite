@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- noembedscripet -->
+
+
+<html jang="ja" manifest="/Games/Marguerite_Mahjong/Manifest.manifest">
+
+<head>
+
+<meta charset="utf-8" />
+<title>しらぎく麻雀(HTML5 版)</title>
+<base href="/Games/Marguerite_Mahjong/" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<link rel="canonical" href="https://www.marguerite.jp/Nihongo/Games/%E3%81%97%E3%82%89%E3%81%8E%E3%81%8F%E9%BA%BB%E9%9B%80/index.html" />
+<link rel="alternate" media="handheld" href="http://www.marguerite.jp/k/Games/Mahjong/index.html" />
+<link rel="alternate" hreflang="en-us" href="/Games/Marguerite_Mahjong/English" />
+
+<meta name="description" content="HTML5 で実現した麻雀アプリケーションです。四人打ちのリーチ麻雀に加え、ブー麻雀, アルシァル, 台湾麻将, 中共麻将(中国国際麻将)及び各種三人麻雀がプレイ出来ます。デスクトップ向けですので、スマートフォンの方は簡略版『しらぎくモバイル麻雀』をお勧めします。" />
+
+<script>
+_t_sysPWA=0;
+_t_syslang='ja';
+lang='ja';
+</script>
+
+
+<script>
+if (navigator.serviceWorker && location.protocol.toLowerCase()=='https:') {
+	navigator.serviceWorker.register('/Games/Marguerite_Mahjong/worker.js').then(
+		function(r) {
+			r.update();
+			}
+		).catch(
+			function(err) {}
+		);
+	}
+</script>
+
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/audio1.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/audio2.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/audio3.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/audio4.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/audio5.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/audio6.js"></script>
+
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/audioLib.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/graphcLib.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/graphc1.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/graphc2.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/graphc3.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/graphc4.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/graphc5.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/graphc6.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/graphc7.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/graphc8.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/vals.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/judge01.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/judge02.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/judge03.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/judge04.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/judge05.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/judge06.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/judge07.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/routines01.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/routines02.js"></script>
+<script src="/Games/Marguerite_Mahjong/HTML5_Resouces/routines03.js"></script>
+
+<script type="text/javascript">
+	document.createElement('figure');
+	</script>
+<style type="text/css" media="all">
+	<!--
+	html, body, figure, canvas {
+		margin: 0;
+		padding: 0;
+		}
+
+	html, body {
+		height: 100%;
+		}
+
+	body {
+		overflow: hidden;
+		}
+	-->
+	</style>
+
+<style type="text/css">
+	<!--
+	#FOR_FEATURE_PHONES, hr {
+		display: none;
+		}
+	-->
+	</style>
+</head>
+<body>
+	<figure id="GAME_CONTAINER">
+		<canvas id="GAME_CANVAS" width="480" height="640">
+			<h1><a href="/Nihongo/Games/%E3%81%97%E3%82%89%E3%81%8E%E3%81%8F%E9%BA%BB%E9%9B%80/index.html">しらぎく麻雀</a></h1>
+			<p>JavaScript を有効にしてから再読込してください。</p><p></p>
+			<section>
+				<h2 id="ABOUT">『しらぎく麻雀』について。</h2>
+				<p>本アプリケーションは、HTML5 で実現した麻雀アプリケーションです。</p>
+				<p>四人打ちのリーチ麻雀に加え、ブー麻雀, アルシァル, 台湾麻将, 中共麻将(中国国際麻将)及び各種三人麻雀がプレイ出来ます。</p>
+				<p>『しらぎく麻雀』はデスクトップ向けです。</p>
+				<p>スマートフォンの方には簡略版『<a href="/k/Games/Mahjong/index.html">しらぎくモバイル麻雀</a>』をお勧めしております。</p>
+				</section>
+
+			<section>
+				<h2 id="SYSTEM_REQUIREMENT">『しらぎく麻雀』の動作環境。</h2>
+				<p>HTML5 に対応しているウェブブラウザであれば、どの環境でもプレイ出来ます。</p>
+				<p>ただ、デスクトップの横方向公開像画面を想定しているため、スマートフォンでのプレイはお勧め出来ません。上記通り簡略版『<a href="/k/Games/Mahjong/index.html">しらぎくモバイル麻雀</a>』をお勧めします。</p>
+				<ul class="notes">
+					<li>フラッシュ版については、令和元年12月31日限りで公開を終了しました。</li>
+					</ul>
+				</section>
+
+			<hr class="separator" />
+			<address>Copyright &#169;平成29年-令和 2年 さいたま・<a href="/Nihongo/">しらぎくさいと</a></address>
+			</canvas>
+		</figure>
+</body>
+</html>

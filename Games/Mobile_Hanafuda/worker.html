@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="shift_jis" />
+<title>しらぎくモバイル花札</title>
+<meta name="ROBOTS" content="NOINDEX, FOLLOW" />
+
+<script>
+if (navigator.serviceWorker) {
+	navigator.serviceWorker.register('/Games/Mobile_Hanafuda/worker.js').then(
+		function(r) {
+			r.update();
+			}
+		).catch(
+			function(err) {}
+		);
+	}
+</script>
+</head>
+<body>
+<h1><a href="https://www.marguerite.jp/k/Games/Hanafuda/index.html">しらぎくモバイル花札</a></h1>
+</body>
+</html>
+

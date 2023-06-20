@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="shift_jis" />
+<title>しらぎくモバイル麻雀</title>
+<meta name="ROBOTS" content="NOINDEX, FOLLOW" />
+
+<script>
+if (navigator.serviceWorker) {
+	navigator.serviceWorker.register('/Games/Mobile_Mahjong/worker.js').then(
+		function(r) {
+			r.update();
+			}
+		).catch(
+			function(err) {}
+		);
+	}
+</script>
+</head>
+<body>
+<h1><a href="https://www.marguerite.jp/k/Games/Mahjong/index.html">しらぎくモバイル麻雀</a></h1>
+</body>
+</html>
