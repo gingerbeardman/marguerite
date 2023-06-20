@@ -1,7 +1,7 @@
 # marguerite
-Files from wayback machine of http://www.marguerite.jp/Games/
+Files from wayback machine archive of http://www.marguerite.jp
 
-## getting it running
+## How to get Marguerite Hanafuda running
 
 1. Edit `/Games/Marguerite_Hanafuda/HTML5_Resouces/graphcLib.js`
    - Change the 2 references of `www.marguerite.jp` to your domain `localhost:8888`
@@ -9,3 +9,5 @@ Files from wayback machine of http://www.marguerite.jp/Games/
 1. `open http://localhost:8888/Games/Marguerite_Hanafuda/`
 
 ...have fun!
+
+✨🎴✨
